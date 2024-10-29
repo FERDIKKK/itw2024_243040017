@@ -4,6 +4,9 @@
 body{background-color: aqua;}
 .ratatengah{text-align: center;}
 .ratatengah{text-align: center;}
+body{
+    background-image: url(background.png);
+}
 
 h1 {
     font-family: 'Comic Sans MS';
