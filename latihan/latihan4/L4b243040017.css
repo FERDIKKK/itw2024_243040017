@@ -1,0 +1,60 @@
+<style>
+body{
+    font: 16px/28px arial; sans-serif;
+    background-color: blue;
+    color: #333;
+}
+.container{
+width: 800px;
+margin: auto;
+background-color: skyblue;
+}
+.header{
+padding: 20px;
+}
+.header .judul{
+font-size: 40px;
+font-weight: bold;
+}
+.header ul li{
+display: inline-block;
+margin-top: 20px;
+margin-right: 10px;
+}
+
+.header a{
+text-decoration: none;
+color: salmon;
+padding: 3px;
+}
+.header a:hover{
+background-color: blue;
+color: white;
+}
+.hero{
+height: 250px;
+background-image: url(bmwss1000rr.jpg);
+background-size: cover;
+border-top: 5px solid white;
+border-bottom: 5px solid white;
+background-position: 0 -160px;
+}
+.hero1{
+height: 250px;
+background-image: url(bmws1000rr.jpg);
+background-position: 0 -620px;
+border-bottom: 5px solid white;
+}
+
+.eak{
+background-color: #333;
+padding: 10px;
+text-align: center;
+}
+.eak .copy{
+color: #eaeaea;
+text-align: center;
+font-size: 12px;
+}
+
+</style>
