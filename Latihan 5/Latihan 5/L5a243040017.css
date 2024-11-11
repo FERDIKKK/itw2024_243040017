@@ -1,0 +1,130 @@
+/*font*/
+@font-face{
+   font-family: 'sangar';
+   src: url(../fonts/Bebas_Neue.zip) format('woff');
+}
+   /*style utama*/
+   body{
+       font: 18px/36px 'Bebas_Neue.zip', 'Arial Narrow', arial,sans-serif; 
+       background-color: rgb(8, 94, 128);
+       color: black;
+       font: 100px/40px;
+   }
+   h1{
+       font-size: 80px;
+       margin-top: 30px;
+       text-align: center;
+       font-size: 50px;
+       text-shadow: 2px 0px 1px black;
+   }
+  .haua{
+    width: 700px;
+    background-color: rgb(156, 178, 187);
+    margin: auto;
+    padding: 20px;
+    border-radius: 7px;
+    
+  }
+  .ul li{
+    display: inline-block;
+  }
+  .ul{
+    display: auto;
+    width: 10px;
+    font-size: 10px;
+  }
+  .taruna{
+margin-top: 40px;
+  }
+.taruna li{
+  float: left;
+  width: 110px;
+  height: 110px;
+  border-radius: 40%;
+  /*overflow: hidden;*/
+  margin-right: 20px;
+  position: relative;
+  border: 5px solid white
+}
+.taruna li span{
+  display: block;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  top: 0;
+  text-align: center;
+  line-height: 110px;
+  color: #372f2f;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.703);
+  opacity: 0;
+  transition: .3s;
+}
+.taruna li img, 
+.taruna li,
+.taruna li span{
+  border-radius: 40%;
+}
+.horas{
+  clear: both;
+}
+.taruna li a:hover span{
+  opacity: 1;
+}
+.hoho{
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0);
+  z-index: 9999;
+  transition: .8s;
+  text-align: center;
+  padding: 80px ;
+}
+.hoho:target{
+  width: auto;
+  height: auto;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, .7);
+}
+.hoho img{
+  max-height: 100%;
+}
+.jet li img {
+  margin-top: 30px;
+  margin-right: 40px;
+  float: left;
+  width: 300px; 
+  overflow: hidden;
+  border-radius: 8px;
+  object-fit: cover;
+  transition: .9s;
+  height: 100%;
+  cursor: pointer;
+}
+.jet:hover li img{
+  transform: scale(1.1);
+}
+.tempur{
+  clear: both;
+}
+.taruna img{
+  display: block;
+  width: 100%;
+  height: auto; 
+}
+.taruna .close{
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  margin-left: -20px;
+  color: black;
+  text-decoration: none;
+  background-color: rgb(139, 139, 156);
+  border: 1px solid white;
+  line-height: 14px;
+  padding: 5px;
+}
